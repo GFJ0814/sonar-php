@@ -30,6 +30,12 @@ public final class SyntacticEquivalence {
   private SyntacticEquivalence() {
   }
 
+  /**
+   * 判断两个树的节点是否一致
+   * @param tree1
+   * @param tree2
+   * @return
+   */
   public static boolean areSyntacticallyEquivalent(@Nullable Tree tree1, @Nullable Tree tree2) {
     if (tree1 == tree2) {
       return true;
